@@ -105,9 +105,3 @@ python -m spacy download en_core_web_sm
 ## License 📜🛡️⚖️
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-```
-MIT License
-
-Copyright (c) 2025
----
-
