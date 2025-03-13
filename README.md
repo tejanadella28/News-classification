@@ -1,4 +1,4 @@
-# News Classification using Naïve Bayes 📊📜✨
+# News Classification using Naïve Bayes 📊🐜✨
 
 ---
 
@@ -6,16 +6,16 @@
 This project focuses on classifying news articles using the Naïve Bayes algorithm. The model is trained and evaluated under two scenarios:
 
 1. **Without Text Preprocessing:** The raw text data is used directly for training.
-2. **With Text Preprocessing:** Stop words are removed using spaCy to analyze the impact of preprocessing on classification performance. 🎯🔍📖
+2. **With Text Preprocessing:** Stop words are removed using spaCy to analyze the impact of preprocessing on classification performance. 🎯🔍📚
 
 ---
 
-## Dataset 📂📑📊
+## Dataset 📂💑📊
 The dataset consists of labeled news articles belonging to multiple categories. Ensure the dataset is cleaned and properly formatted before training the model. 🛠️📝✅
 
 ---
 
-## Preprocessing Function ✂️🧼🔡
+## Preprocessing Function ✂️🩼🚱
 The preprocessing function removes stop words from the text using spaCy:
 
 ```python
@@ -31,16 +31,16 @@ def preprocess(text):
 
 ---
 
-## Implementation Steps 🏗️📊⚙️
+## Implementation Steps 🏠📊⚙️
 1. **Data Loading:** Load the news dataset.
 2. **Preprocessing:** Apply the `preprocess` function on the text data (for the preprocessed version).
 3. **Feature Extraction:** Convert text data into numerical features using TF-IDF Vectorization.
 4. **Model Training:** Train a Naïve Bayes classifier on both raw and preprocessed text data.
-5. **Performance Evaluation:** Compare accuracy, precision, recall, and F1-score between both approaches. 📈🧐🔬
+5. **Performance Evaluation:** Compare accuracy, precision, recall, and F1-score between both approaches. 📈🤔🔬
 
 ---
 
-## Model Training 🏋️‍♂️🎓📡
+## Model Training 🏋️‍♂️🎓🛁
 The model is trained using the `MultinomialNB` classifier from `sklearn`:
 
 ```python
@@ -81,7 +81,7 @@ The impact of preprocessing is evaluated using:
 
 ---
 
-## Conclusion 🧐🔬✅
+## Conclusion 🤔🔬✅
 The analysis highlights whether removing stop words improves or degrades the model's performance. The results guide whether text preprocessing should be included in future text classification models. 📚🤔💡
 
 ---
@@ -102,6 +102,15 @@ python -m spacy download en_core_web_sm
 
 ---
 
-## License 📜🛡️⚖️
+## License 📝🛡️⚖️
 This project is licensed under the MIT License.
+
+### News Categories 📰🔍📄
+The news articles are classified into the following four categories:
+- **BUSINESS**  
+- **SPORTS**  
+- **CRIME**  
+- **SCIENCE**  
+
+📚🔍📈
 
